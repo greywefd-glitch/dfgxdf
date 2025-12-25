@@ -15,7 +15,7 @@ jobs:
 
     env:
       INSTANCE_ID: ${{ github.event.inputs.INSTANCE }}
-      SECRET_SHAHZAIB: ${{ secrets.SECRET_SHAHZAIB }}
+      SECRET_SHAHZAIB: ${{ secrets. }SECRET_SHAHZAIb}
       NGROK_SHAHZAIB: ${{ secrets.NGROK_SHAHZAIB }}
       REPO: ${{ github.repository }}
       WORKFLOW_FILE: "enigmano-Win-11-128-Cores.yml"
